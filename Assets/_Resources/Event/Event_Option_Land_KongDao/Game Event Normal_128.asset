@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 583305475, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Normal
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: 73b1b20fb2150c542a547ba93f6c8f4a, type: 2}
+  position: {x: 600, y: 0}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    - elements
+    - items
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: 6a99e95d9a46f4642b41efca0bd1ec99, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 70a9402daa19f1e4f895ced09f029e5b, type: 2}
+        reroutePoints: []
+      - fieldName: enter
+        node: {fileID: 11400000, guid: f524ca2b8505bfd44a087ab4ca4bc7fa, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: elements
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventNormalNode+AttStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: items
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventItemNode+ItemStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  titleId:
+  title:
+  summaryId:
+  summary:
+  contentId: Event_20320802
+  content: '<color=#e35822>骷髅石像</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你靠近。'
+  elements: []
+  items: []
+  isServerDrop: 0

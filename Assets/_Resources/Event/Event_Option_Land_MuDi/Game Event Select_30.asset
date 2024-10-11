@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1459862660, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Select
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: d39fc84a9752a2e409ed86c153633e6e, type: 2}
+  position: {x: 600, y: 500}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: a536cc299334cf645b1a13747f06c739, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 7ecfe1ad1e799f74c9aaf3befead9ccc, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  languageId: Event_20620403
+  tipLanguageId:
+  info: 离开
+  infoTip:
+  buttonType: 0
+  buttonColorType: 0
+  needId: 0
+  num: 0

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1459862660, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Select
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: 22c897b38699196449f2bb4a34c2941f, type: 2}
+  position: {x: 900, y: 0}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: 9d70602cd9745c44ca6b9834bedfb9aa, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 90fb52d43a5c4bf4fb97727a95d74afb, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 0b31276157272c048bd19168bc518c24, type: 2}
+        reroutePoints: []
+      - fieldName: enter
+        node: {fileID: 11400000, guid: d7690d51dea339c4f8dc97212e3c27ba, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  languageId: Event_20920703
+  tipLanguageId:
+  info: 凝视美杜莎
+  infoTip:
+  buttonType: 0
+  buttonColorType: 1
+  needId: 0
+  num: 0

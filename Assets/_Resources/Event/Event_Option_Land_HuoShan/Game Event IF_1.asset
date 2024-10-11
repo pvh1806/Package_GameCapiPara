@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1640575924, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event IF
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: c845dc4609af36e40a8de812274750e9, type: 2}
+  position: {x: 1200, y: 0}
+  ports:
+    keys:
+    - enter
+    - ifTrue
+    - ifFalse
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: e5c94912741e0034eaa2661064784d3f, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ifTrue
+      _node: {fileID: 11400000}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 4d9194f8252962b4abd35b7e8a53d0a4, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ifFalse
+      _node: {fileID: 11400000}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 5781d5f0af5b0554188d5afbaf4b6653, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  ifTrue: 0
+  ifFalse: 0
+  ifType: 0
+  opType: 1
+  num: 50

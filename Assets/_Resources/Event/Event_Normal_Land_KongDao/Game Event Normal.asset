@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 583305475, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Normal
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: bb3e995ab99d0ad4aa1dfce758dbe12a, type: 2}
+  position: {x: 300, y: 0}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    - elements
+    - items
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: elements
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventNormalNode+AttStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: items
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventItemNode+ItemStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  titleId:
+  title:
+  summaryId:
+  summary:
+  contentId: Event_10320201
+  content: 你遇到了一处淌着<color=#0c57e2>圣水</color>的喷泉，你在<color=#e35822>朝圣者</color>们面前钻入圣水中洗了个澡。
+  elements:
+  - type: 2
+    num: 25
+  items: []
+  isServerDrop: 0

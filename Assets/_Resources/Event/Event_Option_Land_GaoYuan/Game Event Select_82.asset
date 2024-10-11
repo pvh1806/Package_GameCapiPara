@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1459862660, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Select
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: ebe29bc6cb2a3a74faaaff6fc60a3e5d, type: 2}
+  position: {x: 600, y: 500}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: 2e1f7450efa1f4740ad66416c6cd27cf, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: fc447577bac6f084fa76e99c26355d53, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: f9b72e8a45ab1ff4c91c92d31f8cf4eb, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  languageId: Event_20430404
+  tipLanguageId:
+  info: 祈祷
+  infoTip:
+  buttonType: 0
+  buttonColorType: 0
+  needId: 0
+  num: 0

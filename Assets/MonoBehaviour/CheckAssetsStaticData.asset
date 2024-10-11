@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1901217433, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: CheckAssetsStaticData
+  m_EditorClassIdentifier:
+  LanguageList:
+  - id: 1
+    english: Checking for update
+    spanish: Comprobando actualizaciones
+    chinesesimplified: 正在检查更新
+    chinesetraditional: 正在檢查更新
+    japanese: アップデートを確認中
+    french: Vérification des mises à jour en cours
+    german: Nach Updates suchen
+    italian: Controllo degli aggiornamenti in corso
+    dutch: Controleren op updates
+    russian: Проверка обновлений
+    arabic: فحص التحديثات
+    korean: 업데이트 확인 중
+    vetnamese: Đang kiểm tra cập nhật
+  - id: 2
+    english: Downloading assets
+    spanish: Descargando paquete de actualización
+    chinesesimplified: 正在下载更新包
+    chinesetraditional: 正在下載更新包
+    japanese: アップデートパッケージをダウンロード中
+    french: Téléchargement du package de mise à jour en cours
+    german: Update-Paket wird heruntergeladen
+    italian: Download del pacchetto di aggiornamento in corso
+    dutch: Updatepakket wordt gedownload
+    russian: Загрузка пакета обновления
+    arabic: يتم تحميل حزمة التحديث
+    korean: 업데이트 패키지 다운로드 중
+    vetnamese: Đang tải gói cập nhật
+  - id: 3
+    english: Loading Resources
+    spanish: Cargando recursos
+    chinesesimplified: 正在加载资源
+    chinesetraditional: 資源載入中
+    japanese: リソースを読み込んでいます
+    french: Chargement des ressources en cours
+    german: Ressourcen werden geladen
+    italian: Caricamento delle risorse in corso
+    dutch: Laden van bronnen
+    russian: Загрузка ресурсов
+    arabic: جارٍ تحميل الموارد
+    korean: 자원 로딩 중
+    vetnamese: Đang tải tài nguyên
+  - id: 4
+    english: Sure
+    spanish: Aceptar
+    chinesesimplified: 确定
+    chinesetraditional: 確定
+    japanese: OK
+    french: OK
+    german: OK
+    italian: OK
+    dutch: OK
+    russian: OK
+    arabic: موافق
+    korean: 확인
+    vetnamese: OK
+  - id: 5
+    english: 'Current Version:{0} '
+    spanish: 'Número de versión: {0}'
+    chinesesimplified: 版本号：{0}
+    chinesetraditional: 版本號：{0}
+    japanese: バージョン番号：{0}
+    french: 'Numéro de version : {0}'
+    german: 'Versionsnummer: {0}'
+    italian: 'Numero di versione: {0}'
+    dutch: 'Versienummer: {0}'
+    russian: 'Номер версии: {0}'
+    arabic: ' رقم الإصدار: {0}'
+    korean: '버전 번호: {0}'
+    vetnamese: 'Phiên bản: {0}'
+  - id: 6
+    english: Server connection failure, error code:{0}
+    spanish: 'Error de conexión al servidor, código de error: {0}'
+    chinesesimplified: 服务器连接失败，错误码：{0}
+    chinesetraditional: 服務器連接失敗，錯誤碼：{0}
+    japanese: 'サーバー接続に失敗しました。エラーコード: {0}'
+    french: 'Échec de la connexion au serveur. Code d''erreur : {0}'
+    german: 'Serververbindung fehlgeschlagen, Fehlercode: {0}'
+    italian: 'Connessione al server fallita, codice errore: {0}'
+    dutch: 'Verbinding met de server mislukt, foutcode: {0}'
+    russian: 'Ошибка подключения к серверу, код ошибки: {0}'
+    arabic: 'خطأ في الاتصال بالخادم، رمز الخطأ: {0}'
+    korean: '서버 연결 실패, 오류 코드: {0}'
+    vetnamese: 'Kết nối máy chủ thất bại, mã lỗi: {0}'
+  - id: 7
+    english: New resources are available for update. The update size is <color=red>{0}Mb</color>. It is recommended to download using Wi-Fi. Do you want to download?
+    spanish: Hay nuevos recursos para actualizar, la actualización es de <color=red>{0}Mb</color>. Se recomienda descargar con wifi. ¿Desea descargarla?
+    chinesesimplified: 有新的资源需要更新，本次更新<color=red>{0}Mb</color>，建议使用wifi下载，是否下载？
+    chinesetraditional: 有新的資源需要更新，本次更新<color=red>{0}Mb</color>，建議使用Wi-Fi下載，是否下載？
+    japanese: 新しいリソースのアップデートがあります。今回のアップデートは<color=red>{0}Mb</color>です。Wi-Fiを使用してダウンロードすることをお勧めします。ダウンロードしますか？
+    french: Il y a de nouvelles ressources à mettre à jour, la mise à jour est de <color=red>{0}Mo</color>. Il est recommandé de télécharger via wifi. Voulez-vous télécharger ?
+    german: Es gibt neue Ressourcen zum Aktualisieren, das Update umfasst <color=red>{0}Mb</color>. Eine Download mit WiFi wird empfohlen. Möchten Sie herunterladen?
+    italian: Ci sono nuove risorse da aggiornare, l'aggiornamento è di <color=red>{0}Mb</color>. Si consiglia di scaricare tramite wifi. Vuoi scaricare?
+    dutch: Er zijn nieuwe bronnen om bij te werken, deze update is <color=red>{0}Mb</color>. Het wordt aanbevolen om te downloaden via WiFi. Wil je downloaden?
+    russian: Есть новые ресурсы для обновления, обновление составляет <color=red>{0}Мб</color>. Рекомендуется загрузить с помощью Wi-Fi. Хотите загрузить?
+    arabic: هناك موارد جديدة للتحديث، يبلغ حجم التحديث <color=red>{0} ميغابايت </color>. الرجاء استخدام واي فاي للتحميل. هل ترغب في التحميل؟
+    korean: 새로운 리소스가 업데이트되었습니다. 이번 업데이트는 <color=red>{0}Mb</color>입니다. Wi-Fi를 사용하여 다운로드하는 것이 좋습니다. 다운로드 하시겠습니까?
+    vetnamese: Cần cập nhật tài nguyên mới. Bản cập nhật này là <color=red>{0}Mb</color>. Khuyên bạn nên sử dụng WiFi để tải. Bạn có muốn tải xuống không?
+  - id: 8
+    english: Download
+    spanish: Descargar
+    chinesesimplified: 下载
+    chinesetraditional: 下載
+    japanese: ダウンロード
+    french: Télécharger
+    german: Herunterladen
+    italian: Scaricare
+    dutch: Downloaden
+    russian: Скачивание
+    arabic: تنزيل / تحميل
+    korean: 다운로드
+    vetnamese: Tải xuống
+  - id: 9
+    english: New version is available now. Download now?
+    spanish: ¿Descargar la nueva versión?
+    chinesesimplified: 新版本已发布，是否下载？
+    chinesetraditional: 新版本已發佈，是否下載？
+    japanese: 新しいバージョンがリリースされています。ダウンロードしますか？
+    french: Télécharger la nouvelle version ?
+    german: Neue Version verfügbar, herunterladen?
+    italian: Scaricare la nuova versione?
+    dutch: Nieuwe versie beschikbaar, downloaden?
+    russian: Новая версия доступна, загрузить?
+    arabic: هل ترغب في تنزيل الإصدار الجديد؟
+    korean: 새로운 버전이 출시되었습니다. 다운로드 하시겠습니까?
+    vetnamese: Một phiên bản mới đã được phát hành. Bạn có muốn tải xuống không?
+  - id: 10
+    english: Notice
+    spanish: Aviso
+    chinesesimplified: 通知
+    chinesetraditional: 通知
+    japanese: 通知
+    french: Notification
+    german: Benachrichtigung
+    italian: Notifica
+    dutch: Melding
+    russian: Оповещение
+    arabic: تلميح
+    korean: 안내
+    vetnamese: Thông báo

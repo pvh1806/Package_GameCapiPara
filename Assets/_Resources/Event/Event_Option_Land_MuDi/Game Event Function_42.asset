@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -789335842, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Function
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: e81c1d1aa790e6b44b82cb7ab15bfaec, type: 2}
+  position: {x: 1200, y: 1500}
+  ports:
+    keys:
+    - enter
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: function
+        node: {fileID: 11400000, guid: c0d457c41bfb55a4a84d7242c29f4f02, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  eventFunction: 15
+  funcParam: HP,30

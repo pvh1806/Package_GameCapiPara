@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 583305475, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Normal
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: eedd5f56c6994e84ba79d637368b2ccf, type: 2}
+  position: {x: 300, y: 0}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    - elements
+    - items
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: elements
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventNormalNode+AttStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: items
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventItemNode+ItemStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  titleId:
+  title:
+  summaryId:
+  summary:
+  contentId: Event_10520301
+  content: 你击败了一只兴风作浪的<color=#e35822>海怪</color>，获得了渔民的祝福。
+  elements:
+  - type: 3
+    num: 7
+  items: []
+  isServerDrop: 0

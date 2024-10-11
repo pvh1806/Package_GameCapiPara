@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 583305475, guid: 222c78078da8821ea09910124a9225a2, type: 3}
+  m_Name: Game Event Normal
+  m_EditorClassIdentifier:
+  graph: {fileID: 11400000, guid: 998a4d9386294c742b7b29fb9a47fd83, type: 2}
+  position: {x: 1200, y: 0}
+  ports:
+    keys:
+    - enter
+    - exit
+    - function
+    - elements
+    - items
+    values:
+    - _fieldName: enter
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 11400000, guid: bc6c55d87a46cc346b22fe2975ccad8e, type: 2}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.Empty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 68d0e249310544246a041afb633259d9, type: 2}
+        reroutePoints: []
+      - fieldName: enter
+        node: {fileID: 11400000, guid: 72c3af244c5de434da5650c1fdfa6dda, type: 2}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: function
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.FuncEmpty, Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: elements
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventNormalNode+AttStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: items
+      _node: {fileID: 11400000}
+      _typeQualifiedName: XNode.GameEvent.GameEventItemNode+ItemStruct[], Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  enter: {}
+  exit: {}
+  function: {}
+  titleId: Event_20830203
+  title: 接受挑战（危险）
+  summaryId:
+  summary:
+  contentId: Event_20830204
+  content: '<color=#e35822>恶魔</color>欣喜地说道："冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。"'
+  elements: []
+  items: []
+  isServerDrop: 0
